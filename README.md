@@ -9,7 +9,7 @@ smartslides> export GOOGLE_APPLICATION_CREDENTIALS=gcpAuthoKey.json
 smartslides> node app.js
 ```
 ## Credits
-* Jacob Sides
+* Jacob Sides - https://github.com/the-sides
 * Austin Day
 
 ## Node Dependancies:
