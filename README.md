@@ -8,6 +8,9 @@ smartslides> npm install
 smartslides> export GOOGLE_APPLICATION_CREDENTIALS=gcpAuthoKey.json
 smartslides> node app.js
 ```
+## Credits
+* Jacob Sides
+* Austin Day
 
 ## Node Dependancies:
 Once inside the `team-wirth/websocket` directory
