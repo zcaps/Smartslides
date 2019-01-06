@@ -1,7 +1,7 @@
 # Smartslides
 Flip through notecards based on what you say. Makes presentations flow easier.
 
-## How to install
+## How to Install
 ~The project can be run in 3 simple commands from`~/{nodepath}/github.com/zcaps/Smartslides`
 ```
 smartslides> npm install
