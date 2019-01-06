@@ -13,8 +13,6 @@ smartslides> node app.js
 * Austin Day
 
 ## Node Dependancies:
-Once inside the `team-wirth/websocket` directory
-`npm install @google-cloud/speech express ejs dotenv socket.io mongodb`
 * Google Cloud's Speech Recognition
 * Express for handling easy routing
 * ejs for html templates
