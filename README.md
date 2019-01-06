@@ -12,7 +12,7 @@ smartslides> node app.js
 * Jacob Sides - https://github.com/the-sides
 * Austin Day
 
-## Node Dependancies:
+## Node Dependancies
 * Google Cloud's Speech Recognition
 * Express for handling easy routing
 * ejs for html templates
