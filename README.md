@@ -1,5 +1,5 @@
 # Smartslides
-Flip through notecards based on what you say. Makes presentations flow easier.
+Flip through presentation slides based on what you say. Make your speeches more charismatic. You will be less focused on the technology and more focused on your audience. That awkward moment when you have to tell someone to switch a slide for you is eliminated, and performed automatically. We want you to make a better connection with your audience.
 
 ## How to Install
 ~The project can be run in 3 simple commands from`~/{nodepath}/github.com/zcaps/Smartslides`
