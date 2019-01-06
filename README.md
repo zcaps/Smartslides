@@ -1,7 +1,7 @@
 # smartslides
 Flip through notecards based on what you say. Makes presentations flow easier.
 
-~~The project can be run by opening terminal `.`
+~~The project can be run in 3 simple commands`.`
 ```
 
 smartslides> npm install
