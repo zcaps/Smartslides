@@ -1,7 +1,7 @@
 # smartslides
 Flip through notecards based on what you say. Makes presentations flow easier.
 
-~~The project can be run by opening TWO terminals, one in `.`, the other in `websocket`
+~~The project can be run by opening terminal `.`
 ```
 
 smartslides> npm install
