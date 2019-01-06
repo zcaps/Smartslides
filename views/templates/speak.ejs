@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Speak Through Your Presentation</title>
+    <meta name="description" content="Using socket.io, send voice, recieve \
+        transcriped words along the client to follow along">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/speakClient.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <img id="backBtn" src="images/back.svg" onclick="location.href='/user';">
+        <!-- <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+            <span>MODE: Verbatim</span>
+          </label> -->
+        <div class="header-title">
+            <h3 id="title-text">&nbsp</h3>
+        </div>
+
+        <audio></audio>
+        
+        <div id="notecard-container">
+            <p id="notecard-text">
+            </p>
+        </div>
+        <br>
+        <div id="previewBtns">
+            <button id="startRecButton" type="button"> Start</button>
+            <button id="stopRecButton" type="button"> Stop</button>
+            <button id="nextButton" class="nav-btn" type="button"> NEXT </button>
+            <button id="prevButton" class="nav-btn" type="button"> PREV </button>
+            <button id="reset" class="nav-btn" type="button"> RESTART </button>
+            <div id="modeBtns">
+                <button id="verbatimBtn" type="button">Verbatim</button>
+                <p id="modeStatus">MODE: Smooth</p>
+                <button id="smoothBtn" type="button">Smooth</button>
+
+            </div>
+        </div>
+        <div id="timeline"> 
+        </div>
+        <button id="clearTimeButton">Clear</button>
+        <h3 style="display:inline;">Notecard Timeline</h3>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery-min.js"></script>
+
+    <!-- Socket -->
+    <script src="js/socket.io.js"></script>
+
+    <!-- Client -->
+    <script src="js/speakClient.js"></script>
+</body>
+
+</html>

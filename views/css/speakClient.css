@@ -1,0 +1,162 @@
+body{
+  background-color: #141516;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+}
+
+.wrapper{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+h3{
+  text-align: center;
+  /* display:inline; */
+}
+
+#backBtn{
+  width:  64px;
+  height: 64px;
+  position: absolute;
+}
+
+#previewBtns{
+  font-size: 0.5em;
+}
+#modeBtns{
+  justify-content: center;
+  display: flex;
+  line-height: 0.1em;
+  margin-bottom: 1em;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: absolute;
+  top:0;
+  right:0;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: relative;
+  cursor: pointer;
+  top: 32px;
+  right: 150px;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.switch span{
+  position: relative;
+  top:48px;
+  right:150px;
+  font-size: 0.6em;
+  white-space: nowrap;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#notecard-text{
+  color:#ffffff;
+  text-align: left;
+  margin-left: 3em;
+  /*  CSS is changed once notecard spans have been loaded.  */
+  /* This rule is so local variables rendered are invisible */
+}
+
+.nav-btn{
+  float:right;
+  margin-left :0.5em;
+}
+
+keyword{
+  color:red;
+}
+
+#timeline{
+  height:38px;
+  background-color: #182030;
+}
+#timeline span{
+  font-size:32px;
+  line-height: 1;
+  vertical-align: center;
+}
+.currentTimeCard{
+  color:black;
+  background-color:lime; /* lime power! */
+  outline-color:  rgb(0, 83, 0);
+  outline-width: 1px;
+  outline-style: solid;
+}
+.timeCard{
+  width:100%;
+  text-align: center;
+  display:inline-block;
+}
+button{
+  color:white;
+  background-color:rgb(44, 44, 44);
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+button:hover{
+  background-color:black;
+}
+#notecard-container{
+  background-color: #282a36;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 50vh;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.33);
+  box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.33);
+}

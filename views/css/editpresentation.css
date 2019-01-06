@@ -1,0 +1,630 @@
+body {
+  min-width: none;
+  min-height: nonepx;
+  background-color: rgb(255, 255, 255);
+  font: normal 5.25em/1.5 'Yellowtail';
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+button {
+  font-size: 0.2em;
+  width: 55px;
+}
+
+.icon{
+  position: absolute;
+  opacity: 1;
+}
+#back-icon{
+  top: 12px;
+  left: 32px;
+  width: 200px;
+  height: 100px;
+}
+.hamburger-icon{
+  top: 36px;
+  left: 36px;
+  width: 48px;
+  height: 48px;
+
+}
+.icon:hover{
+  opacity: .4;
+}
+.icon:active{
+  opacity: .2;
+}
+#menu-pullout{
+  position: fixed;
+  display: none;
+  top: 0;
+  left:0;
+  height:100%;
+  z-index: 3;
+  width:200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  background-color:white;
+
+  /* padding-top: 32px; */
+}
+#menu-pullout p{
+  text-align: center;
+  border-bottom: 2px solid black;
+  font: normal 0.4em/1.5 "Yellowtail"
+}
+
+.container {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 7px;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.element .element {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 94.420754482%;
+  width: 31px;
+  height: 27px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image {
+  display: block;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+  width: 100%;
+  min-width: none;
+  min-height: 52px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+  cursor: pointer;
+}
+
+._button {
+  display: none;
+  float: left;
+  width: 9.8403261952%;
+  height: 27px;
+  margin-left: 83.20468%;
+  background-color: rgba(0, 0, 0, 0.8);
+  font: 400 0.19em/1.38 Helvetica;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._element {
+  
+  height: 30px;
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+}
+
+.element-1 {
+  position: relative;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  width: 67px;
+  height: 67px;
+  margin: 0 auto;
+  border-radius: 1000px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  -webkit-transition: background 0.7s linear;
+  -moz-transition: background 0.7s linear;
+  -o-transition: background 0.7s linear;
+  -ms-transition: background 0.7s linear;
+  transition: background 0.7s linear;
+}
+
+.element-10 {
+  position: absolute;
+  top: 1072px;
+  left: 0;
+  right: 0;
+  z-index: 19;
+  width: 67px;
+  height: 67px;
+  margin: 0 auto;
+  border-radius: 1000px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  -webkit-transition: background 0.7s linear;
+  -moz-transition: background 0.7s linear;
+  -o-transition: background 0.7s linear;
+  -ms-transition: background 0.7s linear;
+  transition: background 0.7s linear;
+}
+
+.element-10:hover,
+.element-1:hover,
+.element-5:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  -webkit-transition: background 0.7s linear;
+  -moz-transition: background 0.7s linear;
+  -o-transition: background 0.7s linear;
+  -ms-transition: background 0.7s linear;
+  transition: background 0.7s linear;
+}
+
+.element-11 {
+  position: relative;
+  z-index: 16;
+  width: 0.4292763157%;
+  margin: -1px 0 0 49.8051%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.element-2 {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 52.8421052631%;
+  height: 406px;
+  margin: 0px 0 0 23.57895%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+
+.element-3 {
+  z-index: 2;
+}
+
+.element-4 {
+  clear: both;
+  width: 0.4292763157%;
+  margin: 0px 0 0 49.78454%;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.element-5 {
+  position: relative;
+  top: -1px;
+  left: 0;
+  right: 0;
+  z-index: 7;
+  width: 67px;
+  height: 67px;
+  margin: 0 auto;
+  border-radius: 1000px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  -webkit-transition: background 0.7s linear;
+  -moz-transition: background 0.7s linear;
+  -o-transition: background 0.7s linear;
+  -ms-transition: background 0.7s linear;
+  transition: background 0.7s linear;
+}
+
+.element-6 {
+  position: relative;
+  z-index: 4;
+  width: 0.43%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  clear: both;
+  
+}
+
+.element-7 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 15;
+  width: 52.8421052631%;
+  height: 406px;
+  margin: 95px 0 0 23.59951%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+
+.element-2:hover,
+.element-7:hover {
+  background-color: rgba(0, 0, 0, 0.55);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+
+.element-8 {
+  z-index: 14;
+}
+
+.element-9 {
+  clear: both;
+  width: 0.4292763157%;
+  margin: -435px 0 0 49.8051%;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.image-1 {
+  position: relative;
+  z-index: 9;
+  width: 22px;
+  margin: 23px 0 0 33.55877%;
+}
+
+.image-2 {
+  position: relative;
+  clear: both;
+  z-index: 10;
+  width: 22px;
+  margin: -22px 0 0 33.58209%;
+}
+
+.image-4 {
+  position: relative;
+  z-index: 5;
+  width: 22px;
+  margin: 23px 0 0 33.58209%;
+}
+
+.image-5 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  width: 22px;
+  margin: -22px 0 0 33.58209%;
+}
+
+.image-3,
+.image-6 {
+  width: 15px;
+  margin: 6px 0 0 27.11694%;
+}
+
+.image-7 {
+  position: relative;
+  z-index: 17;
+  width: 22px;
+  margin: 23px 0 0 33.58209%;
+}
+
+.image-8 {
+  position: relative;
+  clear: both;
+  z-index: 18;
+  width: 22px;
+  margin: -22px 0 0 33.58209%;
+}
+
+@media(max-width: 1200px) {
+  .element-7:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  }
+
+  .element-10:hover,
+  .element-1:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  }
+
+  .container {
+    margin-top: 6px;
+  }
+
+  .element .element {
+    display: block;
+    left: 93.0032169117%;
+    width: 29px;
+  }
+
+  .element .image {
+    height: auto;
+  }
+
+  .element ._button {
+    display: block;
+    width: 16.2990196078%;
+    margin-left: 70.09196%;
+  }
+
+  .container .element-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .element-10 {
+    top: 1076px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .element-11 {
+    position: relative;
+    clear: both;
+    z-index: 16;
+    margin-top: 0;
+    margin-left: 49.78516%;
+  }
+
+  .container .element-2 {
+    position: relative;
+    z-index: 3;
+    width: 69.6666666666%;
+    margin-top: 0;
+    margin-left: 15.16667%;
+  }
+
+  .container .element-4 {
+    float: none;
+    clear: none;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .element-5 {
+    top: -1px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .element-6 {
+    position: relative;
+    clear: both;
+    z-index: 4;
+    margin-top: 2px;
+    
+  }
+
+  .container .element-7 {
+    position: relative;
+    z-index: 15;
+    width: 69.6666666666%;
+    margin-top: 96px;
+    margin-left: 15.16667%;
+  }
+
+  .container .element-9 {
+    float: none;
+    clear: none;
+    margin-top: 504px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .element .image-1 {
+    position: relative;
+    z-index: 9;
+    margin-left: 33.53545%;
+  }
+
+  .element .image-2 {
+    position: relative;
+    z-index: 10;
+  }
+
+  .element .image-4 {
+    position: relative;
+    z-index: 5;
+    margin-left: 33.53545%;
+  }
+
+  .element .image-5 {
+    position: relative;
+    z-index: 6;
+    margin-left: 33.55877%;
+  }
+
+  .element .image-3,
+  .element .image-6 {
+    margin-left: 26.93966%;
+  }
+
+  .element .image-7 {
+    position: relative;
+    z-index: 17;
+    margin-left: 33.53545%;
+  }
+
+  .element .image-8 {
+    position: relative;
+    z-index: 18;
+    margin-left: 33.55877%;
+  }
+}
+
+@media(max-width: 600px) {
+  .element-7:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  }
+
+  .element-10:hover,
+  .element-1:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+  }
+
+  body {
+    font-size: 5.25em;
+  }
+
+  .element .element {
+    left: 90%;
+  }
+
+  .element .image {
+    height: auto;
+  }
+
+  .element ._button {
+    width: 15.3333333333%;
+    margin-left: 69.5%;
+  }
+
+  .container .element-1 {
+    position: relative;
+    float: left;
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .container .element-10 {
+    top: 1083px;
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+
+  .container .element-11 {
+    position: relative;
+    clear: none;
+    z-index: 16;
+    margin-top: 1px;
+    margin-left: 49.78385%;
+  }
+
+  .container .element-2 {
+    position: relative;
+    clear: both;
+    z-index: 3;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0;
+  }
+
+  .container .element-4 {
+    position: relative;
+    float: left;
+    clear: both;
+    z-index: 8;
+    margin-top: 0px;
+    margin-right: 0;
+    margin-left: 49.78385%;
+  }
+
+  .container .element-5 {
+    top: -1px;
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+
+  .container .element-6 {
+    position: relative;
+    clear: both;
+    z-index: 4;
+    margin-top: 3px;
+    
+  }
+
+  .container .element-7 {
+    position: relative;
+    z-index: 15;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 0;
+  }
+
+  .container .element-9 {
+    float: left;
+    clear: both;
+    margin-top: -436px;
+    margin-right: 0;
+    margin-left: 49.79948%;
+  }
+
+  .element .image-1 {
+    position: relative;
+    z-index: 9;
+    margin-left: 33.55469%;
+  }
+
+  .element .image-4 {
+    position: relative;
+    z-index: 5;
+    margin-left: 33.55469%;
+  }
+
+  .element .image-7 {
+    position: relative;
+    z-index: 17;
+    margin-left: 33.55469%;
+  }
+
+  .element .image-2,
+  .element .image-5,
+  .element .image-8 {
+    position: absolute;
+    float: none;
+    clear: none;
+    top: 22px;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

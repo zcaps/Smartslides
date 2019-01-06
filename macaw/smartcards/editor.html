@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>editor</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/editor-grid.css">
+  <link rel="stylesheet" href="css/editor.css">
+</head>
+<body class="body page-editor clearfix">
+  <div class="sidebar clearfix js-sidebar">
+    <div class="element element-1"></div>
+    <div class="element element-2 js-sidebar-handle"></div>
+    <img class="image js-hide-arrow" src="images/left_arrow.png">
+  </div>
+  <div class="header clearfix">
+    <div class="element"></div>
+    <p class="text">Smartslides</p>
+    <img class="image" src="images/hamburger menu icon.png">
+  </div>
+  <div class="notecard clearfix">
+    <div class="element js-notecard-box"></div>
+    <p class="text js-notecard-text">Sample Text</p>
+    <textarea id="1" class="_textarea js-notecard-entry" name="notecard_entry" placeholder="Sample Text"></textarea>
+    <button id="2" class="_button js-btn-save">Save&nbsp;</button>
+  </div>
+
+  <script src="js/jquery-min.js"></script>
+  <script src="js/editor.js"></script>
+</body>
+</html>

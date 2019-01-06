@@ -1,0 +1,30 @@
+{
+  "name": "smartslides",
+  "version": "1.1.0",
+  "description": "Speech interpretor helping speech prompts using live tracking and basic progression statistics",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utk-cs/team-wirth"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^2.1.1",
+    "bcrypt": "^3.0.2",
+    "cookie-parser": "^1.4.3",
+    "cookies": "^0.7.3",
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.1.9",
+    "node-gyp": "^3.8.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "team-wirth",
+  "license": "MIT"
+}

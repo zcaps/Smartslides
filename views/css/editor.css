@@ -1,0 +1,168 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.element {
+  position: relative;
+  float: left;
+  background-color: rgb(255, 255, 255);
+}
+
+.header {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 12;
+  width: 100%;
+  height: 127px;
+  margin-top: -1095px;
+}
+
+.header .element {
+  z-index: 9;
+  width: 100%;
+  height: 127px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.48);
+}
+
+.header .image {
+  float: left;
+  z-index: 11;
+  width: 34px;
+  margin: -83px 0 0 8.2487%;
+}
+
+.header .text {
+  z-index: 10;
+  width: 100%;
+  min-height: 127px;
+  margin-top: -127px;
+  font: 5.25em/1.5 'Stardust Adventure';
+}
+
+.image {
+  display: block;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+
+.notecard {
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 91.25%;
+  height: 968px;
+  margin: -968px 0 0 4.5%;
+}
+
+.notecard .element {
+  z-index: 0;
+  width: 100.0235426211%;
+  height: 524px;
+  margin: 28px 0 0 -0.02283%;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, .5);
+}
+
+.notecard .text {
+  z-index: 1;
+  width: 96.4078794901%;
+  min-height: 491px;
+  margin: -507px 0 0 1.8535958904%;
+  font-size: 1em;
+}
+
+.sidebar {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 26.6666666666%;
+  min-width: 320px;
+  max-width: 320px;
+  height: 1095px;
+  margin-left: -313px;
+}
+
+.sidebar .element {
+  height: 968px;
+}
+
+.sidebar .image {
+  float: right;
+  z-index: 7;
+  width: 7px;
+  min-width: 7px;
+  max-width: 7px;
+  margin-top: -574px;
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.text {
+  position: relative;
+  float: left;
+  clear: both;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  width: 13.1506849315%;
+  height: 23px;
+  margin: 11px 0 0 43.56022%;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._textarea {
+  display: block;
+  float: left;
+  width: 96.4383561643%;
+  height: 323px;
+  margin: 30px 0 0 1.82506%;
+  padding: 5px;
+  border: 1px solid rgb(119, 119, 119);
+  background-color: rgb(242, 242, 242);
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  resize: vertical;
+}
+
+.element-1 {
+  z-index: 5;
+  width: 100%;
+  margin-top: 127px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.element-2 {
+  clear: both;
+  z-index: 6;
+  width: 7px;
+  min-width: 7px;
+  max-width: 7px;
+  margin: -968px 0 0 97.8125%;
+  background-image: -webkit-linear-gradient(0deg, rgb(206, 206, 206) 1.9047619047619049%, rgb(255, 255, 255) 52.61904761904762%, rgb(242, 242, 242) 100%);
+  background-image:    -moz-linear-gradient(0deg, rgb(206, 206, 206) 1.9047619047619049%, rgb(255, 255, 255) 52.61904761904762%, rgb(242, 242, 242) 100%);
+  background-image:      -o-linear-gradient(0deg, rgb(206, 206, 206) 1.9047619047619049%, rgb(255, 255, 255) 52.61904761904762%, rgb(242, 242, 242) 100%);
+  background-image:     -ms-linear-gradient(0deg, rgb(206, 206, 206) 1.9047619047619049%, rgb(255, 255, 255) 52.61904761904762%, rgb(242, 242, 242) 100%);
+  background-image:         linear-gradient(450deg, rgb(206, 206, 206) 1.9047619047619049%, rgb(255, 255, 255) 52.61904761904762%, rgb(242, 242, 242) 100%);
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.35);
+}
+
+.element-2:active,
+.element-2:hover {
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.35);
+}
